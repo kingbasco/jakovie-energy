@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?ead775b460b067be8fa9cc9fe538467d") format("truetype"),
+url("./flaticon.woff?ead775b460b067be8fa9cc9fe538467d") format("woff"),
+url("./flaticon.woff2?ead775b460b067be8fa9cc9fe538467d") format("woff2"),
+url("./flaticon.eot?ead775b460b067be8fa9cc9fe538467d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ead775b460b067be8fa9cc9fe538467d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-electric-tower:before {
+    content: "\f101";
+}
+.flaticon-solar-panel:before {
+    content: "\f102";
+}
+.flaticon-power-plant:before {
+    content: "\f103";
+}
+.flaticon-nuclear-plant:before {
+    content: "\f104";
+}
+.flaticon-power:before {
+    content: "\f105";
+}
+.flaticon-electricity:before {
+    content: "\f106";
+}
+.flaticon-wind-mill:before {
+    content: "\f107";
+}
+.flaticon-energy:before {
+    content: "\f108";
+}
+.flaticon-power-1:before {
+    content: "\f109";
+}
+.flaticon-battery:before {
+    content: "\f10a";
+}
+.flaticon-light-bulb:before {
+    content: "\f10b";
+}
+.flaticon-nuclear:before {
+    content: "\f10c";
+}
+.flaticon-gasoline-pump:before {
+    content: "\f10d";
+}
+.flaticon-fire:before {
+    content: "\f10e";
+}
+.flaticon-binoculars:before {
+    content: "\f10f";
+}
+.flaticon-target:before {
+    content: "\f110";
+}
+.flaticon-hand:before {
+    content: "\f111";
+}
+.flaticon-pray:before {
+    content: "\f112";
+}

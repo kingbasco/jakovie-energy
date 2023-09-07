@@ -1,0 +1,97 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?ead775b460b067be8fa9cc9fe538467d") format("truetype"),
+url("./flaticon.woff?ead775b460b067be8fa9cc9fe538467d") format("woff"),
+url("./flaticon.woff2?ead775b460b067be8fa9cc9fe538467d") format("woff2"),
+url("./flaticon.eot?ead775b460b067be8fa9cc9fe538467d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ead775b460b067be8fa9cc9fe538467d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "electric-tower": "\f101",
+    "solar-panel": "\f102",
+    "power-plant": "\f103",
+    "nuclear-plant": "\f104",
+    "power": "\f105",
+    "electricity": "\f106",
+    "wind-mill": "\f107",
+    "energy": "\f108",
+    "power-1": "\f109",
+    "battery": "\f10a",
+    "light-bulb": "\f10b",
+    "nuclear": "\f10c",
+    "gasoline-pump": "\f10d",
+    "fire": "\f10e",
+    "binoculars": "\f10f",
+    "target": "\f110",
+    "hand": "\f111",
+    "pray": "\f112",
+);
+
+.flaticon-electric-tower:before {
+    content: map-get($flaticon-map, "electric-tower");
+}
+.flaticon-solar-panel:before {
+    content: map-get($flaticon-map, "solar-panel");
+}
+.flaticon-power-plant:before {
+    content: map-get($flaticon-map, "power-plant");
+}
+.flaticon-nuclear-plant:before {
+    content: map-get($flaticon-map, "nuclear-plant");
+}
+.flaticon-power:before {
+    content: map-get($flaticon-map, "power");
+}
+.flaticon-electricity:before {
+    content: map-get($flaticon-map, "electricity");
+}
+.flaticon-wind-mill:before {
+    content: map-get($flaticon-map, "wind-mill");
+}
+.flaticon-energy:before {
+    content: map-get($flaticon-map, "energy");
+}
+.flaticon-power-1:before {
+    content: map-get($flaticon-map, "power-1");
+}
+.flaticon-battery:before {
+    content: map-get($flaticon-map, "battery");
+}
+.flaticon-light-bulb:before {
+    content: map-get($flaticon-map, "light-bulb");
+}
+.flaticon-nuclear:before {
+    content: map-get($flaticon-map, "nuclear");
+}
+.flaticon-gasoline-pump:before {
+    content: map-get($flaticon-map, "gasoline-pump");
+}
+.flaticon-fire:before {
+    content: map-get($flaticon-map, "fire");
+}
+.flaticon-binoculars:before {
+    content: map-get($flaticon-map, "binoculars");
+}
+.flaticon-target:before {
+    content: map-get($flaticon-map, "target");
+}
+.flaticon-hand:before {
+    content: map-get($flaticon-map, "hand");
+}
+.flaticon-pray:before {
+    content: map-get($flaticon-map, "pray");
+}
